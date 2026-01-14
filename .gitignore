@@ -1,0 +1,28 @@
+# --- Manim 核心产出 (最重要) ---
+# 忽略所有生成的视频、图片和缓存
+# 使用 **/ 确保无论 media 生成在根目录还是 scenes 子目录下都能被忽略
+**/media/
+**/videos/
+**/images/
+**/Tex/
+**/text_files/
+**/partial_movie_files/
+
+# --- Python 编译缓存 ---
+**/__pycache__/
+**/*.py[cod]
+
+# --- 虚拟环境 ---
+# 别人的电脑路径不一样，不需要你的环境
+venv/
+env/
+.venv/
+
+# --- 编辑器配置 ---
+# 你的 VS Code 设置 (比如解释器路径) 是本地的，不需要上传
+.vscode/
+.idea/
+
+# --- 系统垃圾文件 ---
+.DS_Store
+Thumbs.db
